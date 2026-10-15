@@ -1,0 +1,136 @@
+:root,
+[data-theme="night"] {
+  --ink: #f1f5f9;
+  --muted: #94a3b8;
+  --faint: #64748b;
+  --line: rgba(148, 163, 184, 0.20);
+  --line-strong: rgba(56, 189, 248, 0.38);
+  --bg: #050d1a;
+  --bg-grad: radial-gradient(ellipse at 50% -10%, #102a4c 0%, #071324 52%, #030811 100%);
+  --panel: rgba(10, 22, 40, 0.88);
+  --panel-elevated: rgba(15, 31, 56, 0.96);
+  --panel-glass: rgba(16, 36, 64, 0.72);
+  --input-bg: rgba(3, 10, 22, 0.55);
+  --accent: #a3e635;
+  --accent-ink: #051308;
+  --accent-secondary: #f97316;
+  --cyan: #38bdf8;
+  --danger: #f43f5e;
+  --yellow: #facc15;
+  --purple: #c084fc;
+  --turf-inner: #157359;
+  --turf-outer: #093b2e;
+  --pitch-clay: #d4b07b;
+  --glow: rgba(163, 230, 53, 0.35);
+  --shadow-card: 0 16px 40px rgba(0, 0, 0, 0.45);
+  --topbar-bg: rgba(5, 13, 26, 0.86);
+}
+
+/* WHITE / LIGHT BROADCAST THEME ("Daylight Stadium White") */
+[data-theme="light"] {
+  --ink: #0f172a;
+  --muted: #475569;
+  --faint: #64748b;
+  --line: rgba(15, 23, 42, 0.14);
+  --line-strong: rgba(2, 132, 199, 0.35);
+  --bg: #f1f5f9;
+  --bg-grad: radial-gradient(ellipse at 50% 0%, #ffffff 0%, #f1f5f9 55%, #e2e8f0 100%);
+  --panel: rgba(255, 255, 255, 0.94);
+  --panel-elevated: #ffffff;
+  --panel-glass: rgba(248, 250, 252, 0.88);
+  --input-bg: #f8fafc;
+  --accent: #16a34a;
+  --accent-ink: #ffffff;
+  --accent-secondary: #ea580c;
+  --cyan: #0284c7;
+  --danger: #e11d48;
+  --yellow: #d97706;
+  --purple: #7c3aed;
+  --turf-inner: #229954;
+  --turf-outer: #146c38;
+  --pitch-clay: #e5c693;
+  --glow: rgba(22, 163, 74, 0.25);
+  --shadow-card: 0 12px 32px rgba(15, 23, 42, 0.08);
+  --topbar-bg: rgba(255, 255, 255, 0.90);
+}
+
+[data-theme="day"] {
+  --ink: #f8fafc;
+  --muted: #cbd5e1;
+  --faint: #94a3b8;
+  --line: rgba(255, 255, 255, 0.20);
+  --line-strong: rgba(250, 204, 21, 0.40);
+  --bg: #0b2e1f;
+  --bg-grad: radial-gradient(ellipse at 50% 0%, #165b3d 0%, #0b3322 55%, #061c13 100%);
+  --panel: rgba(11, 45, 31, 0.90);
+  --panel-elevated: rgba(15, 58, 40, 0.97);
+  --panel-glass: rgba(18, 68, 47, 0.76);
+  --input-bg: rgba(4, 20, 13, 0.50);
+  --accent: #facc15;
+  --accent-ink: #171203;
+  --accent-secondary: #fb923c;
+  --cyan: #34d399;
+  --danger: #fb7185;
+  --yellow: #fde047;
+  --purple: #e879f9;
+  --turf-inner: #248f4d;
+  --turf-outer: #13572d;
+  --pitch-clay: #e3c694;
+  --glow: rgba(250, 204, 21, 0.35);
+  --shadow-card: 0 16px 40px rgba(0, 0, 0, 0.42);
+  --topbar-bg: rgba(6, 26, 18, 0.88);
+}
+
+[data-theme="neon"] {
+  --ink: #f8fafc;
+  --muted: #94a3b8;
+  --faint: #64748b;
+  --line: rgba(56, 189, 248, 0.24);
+  --line-strong: rgba(0, 245, 212, 0.45);
+  --bg: #050514;
+  --bg-grad: radial-gradient(ellipse at 50% 0%, #1d1447 0%, #0a0924 55%, #03030d 100%);
+  --panel: rgba(13, 14, 38, 0.90);
+  --panel-elevated: rgba(19, 21, 56, 0.97);
+  --panel-glass: rgba(24, 27, 70, 0.76);
+  --input-bg: rgba(4, 5, 18, 0.60);
+  --accent: #00f5d4;
+  --accent-ink: #031512;
+  --accent-secondary: #ff2a85;
+  --cyan: #38bdf8;
+  --danger: #ff2a85;
+  --yellow: #fee440;
+  --purple: #c084fc;
+  --turf-inner: #10355e;
+  --turf-outer: #071930;
+  --pitch-clay: #b4a3c7;
+  --glow: rgba(0, 245, 212, 0.38);
+  --shadow-card: 0 16px 44px rgba(0, 0, 0, 0.55);
+  --topbar-bg: rgba(5, 5, 20, 0.88);
+}
+
+[data-theme="gold"] {
+  --ink: #fefce8;
+  --muted: #d6d3d1;
+  --faint: #a8a29e;
+  --line: rgba(245, 197, 66, 0.22);
+  --line-strong: rgba(245, 197, 66, 0.45);
+  --bg: #120f0c;
+  --bg-grad: radial-gradient(ellipse at 50% 0%, #2e2418 0%, #17130e 55%, #0a0806 100%);
+  --panel: rgba(26, 21, 16, 0.92);
+  --panel-elevated: rgba(36, 29, 22, 0.97);
+  --panel-glass: rgba(44, 35, 26, 0.78);
+  --input-bg: rgba(10, 8, 6, 0.55);
+  --accent: #f5c542;
+  --accent-ink: #171103;
+  --accent-secondary: #38bdf8;
+  --cyan: #4ade80;
+  --danger: #f87171;
+  --yellow: #facc15;
+  --purple: #c084fc;
+  --turf-inner: #1d643c;
+  --turf-outer: #0e3820;
+  --pitch-clay: #dbb982;
+  --glow: rgba(245, 197, 66, 0.35);
+  --shadow-card: 0 16px 40px rgba(0, 0, 0, 0.50);
+  --topbar-bg: rgba(14, 11, 8, 0.88);
+}
